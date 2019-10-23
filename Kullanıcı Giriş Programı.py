@@ -1,9 +1,21 @@
 print("""
 ************************
-Kullanıcı Giriş Programı
+KULLANICI GİRİŞ PROGRAMI
 ************************""")
-sys_kullanici = "tahacerit"
-sys_parola = "123456"
+print("""
+*************************
+Kullanıcı Kaydı Oluştur..
+*************************""")
+
+sys_kullanici_kaydi = input("Kullanıcı Adı :")
+sys_parola_kaydı = input("Parola :")
+print("""
+**********************
+Kaydınız Oluşturuluyor...
+**********************""")
+
+sys_kullanici = sys_kullanici_kaydi
+sys_parola =sys_parola_kaydı
 
 giris_hakkı = 3
 
